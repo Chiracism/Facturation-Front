@@ -1,0 +1,51 @@
+.box-2-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.box-3-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+}
+
+.input-calcul-wrapper {
+  display: flex;
+}
+
+.input-label-2-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.input-label-3-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem 1rem 0;
+}
+
+/* Print Section */
+.import-card-wrapper {
+  display: flex;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+
+.import-box-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  justify-content: space-around;
+}
+
+/* Bottom Section */
+.card-botton-2-wrapper {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

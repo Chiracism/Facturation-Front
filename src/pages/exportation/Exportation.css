@@ -1,0 +1,116 @@
+.card-wrapper {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.box-wrapper {
+  width: 50%;
+}
+
+.input-label-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 1rem 1rem;
+}
+
+.combo-box-completion,
+.basic-input {
+  margin-left: 1rem;
+  flex-grow: 1;
+}
+
+.header-card-type--wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Middle Card */
+.card-middle-wrapper {
+  margin-bottom: 1rem;
+}
+.box-middle-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Table Card Wrapper */
+.table-card-wrapper {
+  margin-bottom: 1rem;
+}
+
+/* Card Materiel Roulant Wrapper */
+.card-materiel-roulant-wrapper {
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+
+.checkbox-materiel-roulant-wrapper {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.basic-input-cubage {
+  margin: 0 1rem;
+}
+
+/* Marchandises Card Wrapper */
+.combo-box-completion-marcharchandise {
+  margin-left: 1rem;
+}
+
+/* Container Card Wrapper */
+.combo-box-completion-container {
+  margin: 0 1rem;
+}
+
+/* Bottom Card */
+.card-materiel-roulant-wrapper,
+.box-botton-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.basic-bottom-input {
+  margin-right: 1rem;
+  flex-grow: 1;
+}
+.box-bottom-second-wrapper {
+  text-align: right;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+.card-botton-wrapper {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Impression Section */
+.card-print-export-wrapper {
+  display: flex;
+}
+
+.card-print-export-first {
+  margin-right: 1rem;
+}
+
+/* CSS about datas to import */
+@media screen {
+  .print-source {
+    display: none !important;
+  }
+
+  tbody tr td {
+    text-align: center;
+  }
+}
+
+@page {
+  margin: 1rem;
+}
+
+@media print {
+  @page {
+    size: portrait;
+  }
+}

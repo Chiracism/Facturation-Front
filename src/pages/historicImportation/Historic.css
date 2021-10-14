@@ -1,0 +1,28 @@
+.card-botton-wrapper-2 {
+  margin-top: 1rem;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* CSS about datas to import */
+@media screen {
+  .print-source {
+    display: none !important;
+  }
+
+  tbody tr td {
+    text-align: center;
+  }
+}
+
+@page {
+  margin: 1rem;
+}
+
+@media print {
+  @page {
+    size: landscape;
+  }
+}
